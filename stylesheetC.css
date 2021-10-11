@@ -1,0 +1,18 @@
+p{
+  font-size: 20px;
+}
+p #left{
+  clear:left;
+}
+p #right{
+  clear:right;
+}
+#left{
+  float: left;
+}
+#right{
+  float: right;
+}
+img{
+  margin: 5px;
+}

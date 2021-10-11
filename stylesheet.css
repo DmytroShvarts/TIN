@@ -1,0 +1,22 @@
+p{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+h1{
+  font-family: cursive;
+  font-size: 50px;
+}
+h2{
+  font-family: system-ui;
+  font-size: 30px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+a{
+  text-decoration: none;
+}
+ul ::marker{
+  color: red;
+  font-size: 5px;
+}
