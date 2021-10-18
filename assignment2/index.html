@@ -3,5 +3,36 @@
   <head>
   </head>
   <body>
+    <form>
+      <label for="ftext">text field:</label>
+      <input id="ftext" type="text">
+      <br>
+      <label for="fpass">Password</label>
+      <input id="fpass" type="password">
+      <br>
+      <label for="fcheck">do you agree</label>
+      <input id="fcheck" type="checkbox">
+      <br>
+      <label for="fradiogroup">how much do you agree</label>
+      <fieldset id="fradiogroup">
+        <label for="fradio1">1</label>
+        <input type="radio" value="value1" name="group1" id="fradio1">
+        <br>
+        <label for="fradio2">2</label>
+        <input type="radio" value="value2" name="group1" id="fradio2">
+      </fieldset>
+      <label for="cars">Choose a letter:</label>
+      <select name="cars" id="cars">
+        <option value="volvo">A</option>
+        <option value="saab">B</option>
+        <option value="mercedes">C</option>
+        <option value="audi">E</option>
+      </select>
+      <br>
+      <textarea id="story" name="story" rows="5" cols="33">very profound amazing text that changes your life forever</textarea>
+      <br>
+      <input type="button" value="Submit">
+      <input type="button" value="Reset">
+    </form>
   </body>
 </html>
