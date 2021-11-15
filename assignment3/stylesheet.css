@@ -1,0 +1,27 @@
+body{
+  background-color: grey;
+}
+.header {
+  text-align: center;
+}
+.header img{
+  border-radius: 3%;
+  transform: rotate(3deg);
+  box-shadow: 10px 10px 5px black;
+}
+
+.container{
+  display: flex;
+}
+
+.gallery{
+  flex-direction:column;
+}
+
+.text{
+
+}
+
+.footer {
+  text-align: center;
+}
