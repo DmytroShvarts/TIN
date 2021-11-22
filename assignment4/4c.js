@@ -1,0 +1,15 @@
+function isPalindrome (str){
+	var len = str.length;
+	for (var i = 0; i < len/2; i++) {
+		if (str[i] !== str[len - 1 - i]) {
+			return false;
+		}
+	}
+	return true;
+}
+
+console.log(isPalindrome("race"))
+console.log(isPalindrome("racecar"))
+console.log(isPalindrome("carrace"))
+console.log(isPalindrome("mad"))
+console.log(isPalindrome("madam"))
