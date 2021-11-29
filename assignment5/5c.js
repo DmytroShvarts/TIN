@@ -1,0 +1,1 @@
+var prototype = {name:"name", surname:"surname", courses:["course1","course2"],id};
